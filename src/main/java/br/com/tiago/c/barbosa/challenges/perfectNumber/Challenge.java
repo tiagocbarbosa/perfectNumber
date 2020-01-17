@@ -15,11 +15,13 @@ public class Challenge {
 	 */
 	public static boolean checkPerfect(int number) throws Exception {
 		int sum = 0;
-		if(number > 0) { // Have to be a positive number
+		if(number > 0) { // Has to be a positive number
 			sum = divisiblesSum(number);
 			if(sum == number) {
 				return true;
 			}
+		} else {
+			throw new Exception("Cannot be a negative number.");
 		}
 		return false;
 	}
