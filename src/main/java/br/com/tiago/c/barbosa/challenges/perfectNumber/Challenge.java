@@ -2,13 +2,13 @@ package br.com.tiago.c.barbosa.challenges.perfectNumber;
 
 /**
  * 
- * @author tiago.c.barbosa
+ * @author Tiago Barbosa, https://github.com/tiagocbarbosa
  *
  */
 public class Challenge {
 
 	/**
-	 * 
+	 * Checks if number is a perfect number
 	 * @param number
 	 * @return
 	 * @throws Exception
@@ -25,7 +25,7 @@ public class Challenge {
 	}
 
 	/**
-	 * 
+	 * Makes the sum of number factors
 	 * @param number
 	 * @return
 	 * @throws Exception
